@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio da tabela 3</title>
+
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            width: 350px;
+            padding: 10px;
+        }
+
+        caption {
+
+            padding: 10px;
+            background-color: black;
+            color: white;
+            font-size: 3em;
+        }
+
+        td {
+
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        th {
+            padding: 10px;
+            background-color: beige;
+            color: rgb(104, 0, 22);
+            border: 1px solid black;
+
+        }
+
+        tr:nth-child(odd) {
+
+            background-color: rgb(59, 59, 59);
+            color: white;
+        }
+
+        tr:nth-child(even) {
+
+            background-color: rgb(230, 230, 230);
+            color: rgb(5, 5, 5);
+        }
+
+
+        .name {
+
+            font-weight: bolder;
+        }
+
+        .movie {
+
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+
+
+
+
+<body>
+
+    <h1>Exercícios de Tabelas</h1>
+
+    <table>
+
+        <caption>Filmes favoritos</caption>
+        <thead></thead>
+        <tbody>
+            <tr>
+                <th scope="col">Group</th>
+                <th scope="col">Name</th>
+                <th scope="colgroup" colspan="3">Movie</th>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Women</th>
+                <td class="name">Ana Maria dos Santos</td>
+                <td class="movie">Alien</td>
+                <td class="movie">Rambo</td>
+                <td class="movie">Vingadores</td>
+            </tr>
+            <tr>
+                <td class="name">Beatriz Souza</td>
+                <td class="movie">Hulk</td>
+                <td class="movie">Inception</td>
+                <td class="movie">Batman</td>
+            </tr>
+            <tr>
+                <td class="name">Cláudia Melo</td>
+                <td class="movie">Oblivion</td>
+                <td class="movie">Matrix</td>
+                <td class="movie">Big Hero</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Men</th>
+                <td class="name">Bruno Mendonça</td>
+                <td class="movie">Intocáveis</td>
+                <td class="movie">Amnésia</td>
+                <td class="movie">Gladiador</td>
+            </tr>
+            <tr>
+                <td class="name">Daniel Lourenço</td>
+                <td class="movie">Wall-E</td>
+                <td class="movie">Oldboy</td>
+                <td class="movie">Danal</td>
+            </tr>
+
+            <tr>
+                <td class="name">Fabiano Mota</td>
+                <td class="movie">Star Wars 5</td>
+                <td class="movie">Taxi Driver</td>
+                <td class="movie">Toy Story</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="4">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
