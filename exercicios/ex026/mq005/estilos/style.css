@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+* {
+
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body,
+html {
+
+    background-color: rgb(192, 192, 192);
+}
+
+header {
+
+    font-size: 3em;
+    background-color: ;
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(black, #C0C0C0, #C0C0C0);
+
+}
+
+h1 {
+
+    color: #000000;
+    text-shadow: #ffffff6e 1px -1px, #ffffff6e -1px 1px, #ffffff6e 1px 1px, #ffffff6e -1px -1px;
+
+    padding: 20px;
+
+}
+
+span#burguer {
+
+    background-color: rgb(59, 59, 59);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+span#burguer:hover {
+
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+menu {
+
+    display: none;
+}
+
+menu>ul {
+
+
+    list-style-type: none;
+}
+
+
+menu a {
+
+    font-size: 0.5em;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    text-align: center;
+    border-top: 3px solid gray;
+    border-radius: 25px;
+
+}
+
+
+
+menu a:hover {
+
+    background-color: white;
+    color: black;
+}
+
+main {
+
+    text-align: center;
+    padding: 10px;
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+article h2 {
+
+    font-size: 2em;
+    padding-bottom: 40px;
+}
+
+article p {
+
+    text-align: justify;
+    margin-bottom: 30px;
+    line-height: 2em;
+    text-indent: 20px;
+}
